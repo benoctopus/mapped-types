@@ -16,13 +16,11 @@
     "test:e2e": "jest --config ./tests/jest-e2e.json --runInBand",
     "test:e2e:dev": "jest --config ./tests/jest-e2e.json --runInBand --watch",
     "prerelease": "npm run build",
-    "release": "release-it",
-    "prepare": "husky install"
+    "release": "release-it"
   },
   "devDependencies": {
     "@commitlint/cli": "17.5.0",
     "@commitlint/config-angular": "17.4.4",
-    "@nestjs/common": "9.3.12",
     "@types/jest": "29.5.0",
     "@types/node": "18.15.10",
     "@typescript-eslint/eslint-plugin": "5.56.0",

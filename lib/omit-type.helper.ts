@@ -1,5 +1,5 @@
-import { Type } from '@nestjs/common';
 import { MappedType } from './mapped-type.interface';
+import { Type } from './Type';
 import {
   inheritPropertyInitializers,
   inheritTransformationMetadata,

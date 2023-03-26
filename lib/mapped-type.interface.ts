@@ -1,4 +1,4 @@
-import { Type } from '@nestjs/common';
+import { Type } from './Type';
 
 export interface MappedType<T> extends Type<T> {
   new (): T;
